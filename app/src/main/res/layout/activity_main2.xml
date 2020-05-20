@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Main2Activity">
+	
+	
+	
+	<ListView
+		android:background="@color/colorAccent"
+		android:id="@+id/listData"
+		android:layout_width="match_parent"
+		android:layout_height="864px"
+		android:visibility="gone"
+		/>
+	
+	
+	<ListView
+		android:background="@color/colorPrimary"
+		android:id="@+id/listBg"
+		android:layout_width="match_parent"
+		android:layout_height="864px"
+		android:visibility="gone"
+		/>
+	
+	
+	
+	<Button
+		android:id="@+id/btnTop"
+		android:layout_width="100dp"
+		android:layout_height="60dp"
+		android:layout_alignParentBottom="true"
+		android:text="Top"
+		android:visibility="gone"
+		/>
+	
+	<Button
+		android:id="@+id/btnBottom"
+		android:layout_width="100dp"
+		android:layout_height="60dp"
+		android:layout_marginLeft="200dp"
+		android:layout_alignParentBottom="true"
+		android:text="Bottom"
+		android:visibility="gone"
+		/>
+	
+	
+	<com.example.view.MyFlowView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/flowView">
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="欧美影视"
+			android:textColor="@color/colorAccent" />
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="婚姻育儿"
+			android:textColor="@color/colorAccent" />
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="散文"
+			android:textColor="@color/colorAccent" />
+		
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="程序员"
+			android:textColor="@color/colorAccent" />
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="大学生生活"
+			android:textColor="@color/colorAccent" />
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="运营互助帮"
+			android:textColor="@color/colorAccent" />
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="设计"
+			android:textColor="@color/colorAccent" />
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="8dp"
+			android:background="@drawable/shape_tv_blue"
+			android:padding="5dp"
+			android:text="读书"
+			android:textColor="@color/colorAccent" />
+
+		
+	
+	</com.example.view.MyFlowView>
+	
+	
+</RelativeLayout>
